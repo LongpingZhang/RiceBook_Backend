@@ -78,7 +78,7 @@ function addArticle(req, res) {
         comments: [],
     };
 
-    articles.push(newArticle);
+    articles.unshift(newArticle);
     res.send({ articles: [newArticle] });
 }
 
