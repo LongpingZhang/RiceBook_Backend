@@ -3,3 +3,4 @@ spec
 *.http
 .idea
 .DS_Store
+npm-debug.log
